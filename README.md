@@ -1,0 +1,6 @@
+# Valida CPF Java
+Esse é um validador de CPF feito em Java. Algo que com Python eu fiz em 13 linhas, no Java precisa de 20 linhas. O bom do Java é a questão de que tem muitos sistemas funcionando em Java e em questão de empregabilidade, alem da Segurança que o Java traz. Esse é um pouco mais complexo, então vou falar o que eu fiz.
+
+Primeiro importamos o pacote, depois importamos o Matcher e o Pattern do Regex que vai ser o nosso padrão. Depois importamos a Classe Scanner e pedimos ao usuário digitar um número de CPF, e então armazenamos na variável CPF. Pegamos o padrão do Regex que é a numeros de 0 a 9 com 3 caracteres separado por pontos. No ultiimo, ele separa por traço e no final tem apenas 2 caracteres. 
+
+Usamos o Matcher para comparar com o CPF, e usamos um boolean pra comparar se é verdadeiro ou falso. No final tem um if, que se for verdadeiro ele retorna o numero do CPF ao usuário, senão ele fala "Digite um CPF Válido". Achei muito interessante, e o bom do Java é que é uma linguagem totalmente orientada a objetos, ou seja, por mais que escreva muitas linhas de código ela permite o reuso e assim o código fica muito leve. Espero que tenham gostado e um Fraternal Abraço a todos os Devs.
